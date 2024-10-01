@@ -7,7 +7,7 @@ import Home from './pages/home';
 import { useState } from 'react'
 import InvitePage from './pages/invitePage';
 import './App.css'
-
+//
 function App() {
 
 
