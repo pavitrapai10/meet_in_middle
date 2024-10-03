@@ -80,7 +80,7 @@ exports.signin = async(req, res) => {
         res.json({message: 'Login Succesful', token});
     }
     catch (error) {
-        req.status(500).json({error: 'Internal Server Error'});
+        res.status(500).json({error: 'Internal Server Error'});
 
     }
 
