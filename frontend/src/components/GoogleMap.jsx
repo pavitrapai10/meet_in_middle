@@ -141,9 +141,9 @@ console.log(selectedPlace,"============PLace")
   };
 
   const mapStyles = { width: "100%", height: "400px" };
-
+  const ApiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
   return (
-    <LoadScript googleMapsApiKey="AIzaSyC07FUPydZqWCczGNbWP_jhLSujSiNVJiU" libraries={["places"]}>
+    <LoadScript googleMapsApiKey = {ApiKey} libraries={["places"]}>
       <div>
         {error && <p>{error}</p>}
         <div>
