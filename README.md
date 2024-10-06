@@ -64,8 +64,8 @@ To run the project locally, you'll need the following:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/meet-in-the-middle.git
-   cd meet-in-the-middle
+   git clone https://github.com/pavitrapai10/meet_in_middle.git
+   cd meet_in_middle
    ```
 
 2. Install backend dependencies:
@@ -86,9 +86,10 @@ To run the project locally, you'll need the following:
 
    ```
    MONGO_URI=your_mongodb_connection_string
-   TWILIO_ACCOUNT_SID=your_twilio_account_sid
-   TWILIO_AUTH_TOKEN=your_twilio_auth_token
-   GOOGLE_API_KEY=your_google_api_key
+   TWILIO_ACCOUNT_SID = your_twilio_account_sid 
+   TWILIO_AUTH_TOKEN = your_twilio_auth_token
+   TWILIO_PHONE_NO = phone number used to create twilio account
+   REACT_APP_GOOGLE_MAPS_API_KEY=your_google_api_key
    ```
 
 5. Running the Application
