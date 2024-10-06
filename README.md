@@ -93,8 +93,10 @@ To run the project locally, you'll need the following:
    ```
 
 5. Running the Application
+   
 
    1. Start the backend server:
+      
       
 
    ```
@@ -103,6 +105,7 @@ To run the project locally, you'll need the following:
    ```
 
    2. Start the frontend server:
+      
       
    
    ```
