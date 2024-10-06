@@ -1,0 +1,116 @@
+/* Main container */
+.signup-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw; /* Full viewport width */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light background for overall container */
+    box-sizing: border-box;
+}
+
+/* Left section for the slogan */
+.left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0; /* Gray background */
+    padding: 20px;
+}
+
+.quote-box {
+    text-align: center;
+    font-size: 1.7em;
+    color: #333;
+}
+
+.quote-box h1 {
+    font-style: italic;
+    font-weight: bold;
+    color: #0077b6; /* Blue for emphasis */
+}
+
+.quote-box span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #555; /* Subtle grey for secondary text */
+}
+
+/* Right section for the sign-up form */
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Signup form styling */
+.Signup-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%; /* Ensures full width of the form */
+}
+
+.Signup-main h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.8em;
+}
+
+/* Input fields styling */
+.Signup-main input {
+    width: 100%; /* Full width for input fields */
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 1em;
+    color: #333;
+    outline: none;
+}
+
+.Signup-main input:focus {
+    border-color: #0077b6; /* Blue border on focus */
+}
+
+/* Signup button styling */
+.Signup-main button {
+    width: 100%; /* Full width for the button, matching input fields */
+    padding: 12px;
+    background-color: #0077b6; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Signup-main button:hover {
+    background-color: #005f8a; /* Darker shade on hover */
+}
+
+/* Additional spacing and responsiveness */
+@media (max-width: 768px) {
+    .Signup-main {
+        padding: 30px;
+        max-width: 90%;
+    }
+
+    .quote-box {
+        font-size: 1.5em;
+    }
+}
