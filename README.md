@@ -95,6 +95,7 @@ To run the project locally, you'll need the following:
 5. Running the Application
 
    1. Start the backend server:
+      
 
    ```
    cd backend
@@ -102,11 +103,13 @@ To run the project locally, you'll need the following:
    ```
 
    2. Start the frontend server:
+      
    
    ```
    cd frontend
    npm run dev
    ```
+   
    3. Open the app: Visit http://localhost:5173/ in your browser to interact with the application.
 
 
