@@ -40,8 +40,8 @@ const Signin = () => {
         <div className="signin-container">
             <div className="left-section">
                 <div className="quote-box">
-                    <p>"There's always room at the top for the best."</p>
-                    <span>- John Henry Patterson</span>
+                   <p>Meet In the Middle</p>
+                    <span>Bringing people together, one midpoint at a time!</span>
                 </div>
             </div>
             <div className="right-section">
